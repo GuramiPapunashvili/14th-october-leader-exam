@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="SignUp">
+        <form id="myForm">
+            <h1>Sign Up</h1>
+            <label for="username">please enter your username: </label> <br>
+            <input type="text" id="username" required> <br>
+            <label for="password">please enter your password: </label> <br>
+            <input type="text" id="password" required> <br>
+            <label for="role">choose your role</label> <br>
+            <select id="role">
+                <option value="moderator">moderator</option>
+                <option value="viewer">viewer</option>
+            </select> <br>
+            <input id="submit" type="submit">
+        </form>
+    </div>
+
+    <button id="addStudent">insert row</button>
+    <table id="TableForModerators" contenteditable="true">
+        <tr>
+            <td>FB-ს პროფილის ლინკი</td>
+            <td>მშობლის სახელი</td>
+            <td>მობ ნომ</td>
+            <td>ბავშვის სახელი გვარი</td>
+            <td>ბავშვის fb</td>
+            <td>ასაკი</td>
+        </tr>
+        <tr>
+            <td>https://www.facebook.com/messages/e2ee/t/7391717664273539</td>
+            <td>ქრი სტი</td>
+            <td>✅</td>
+            <td>ანდრია მაღლაფერიძე</td>
+            <td>https://www.facebook.com/messages/t/100051027673289</td>
+            <td>11</td>
+        </tr>
+        <tr>
+            <td>https://www.facebook.com/messages/e2ee/t/7131769023587555</td>
+            <td>ლულა ლულა</td>
+            <td>✅</td>
+            <td>ანდრია ჭანკვეტაძე</td>
+            <td>https://www.facebook.com/messages/t/100000389256542</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>https://www.facebook.com/messages/e2ee/t/7892752667401650</td>
+            <td>ნინო გაბრიელაშვილი</td>
+            <td>✅</td>
+            <td>გიორგი გვრიტიშვილი</td>
+            <td>https://www.facebook.com/messages/e2ee/t/7668496936527651</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>https://www.facebook.com/messages/e2ee/t/24963289869986450</td>
+            <td>ზაალი გიორგაძე</td>
+            <td>✅</td>
+            <td>დაჩი გიორგაძე</td>
+            <td>https://www.facebook.com/messages/t/100009562337724</td>
+            <td>13</td>
+        </tr>
+    </table>
+
+    <table id="TableForViewers">
+        <tr>
+            <td>FB-ს პროფილის ლინკი</td>
+            <td>მშობლის სახელი</td>
+            <td>მობ ნომ</td>
+            <td>ბავშვის სახელი გვარი</td>
+            <td>ბავშვის fb</td>
+            <td>ასაკი</td>
+        </tr>
+        <tr>
+            <td>https://www.facebook.com/messages/e2ee/t/7391717664273539</td>
+            <td>ქრი სტი</td>
+            <td>✅</td>
+            <td>ანდრია მაღლაფერიძე</td>
+            <td>https://www.facebook.com/messages/t/100051027673289</td>
+            <td>11</td>
+        </tr>
+        <tr>
+            <td>https://www.facebook.com/messages/e2ee/t/7131769023587555</td>
+            <td>ლულა ლულა</td>
+            <td>✅</td>
+            <td>ანდრია ჭანკვეტაძე</td>
+            <td>https://www.facebook.com/messages/t/100000389256542</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>https://www.facebook.com/messages/e2ee/t/7892752667401650</td>
+            <td>ნინო გაბრიელაშვილი</td>
+            <td>✅</td>
+            <td>გიორგი გვრიტიშვილი</td>
+            <td>https://www.facebook.com/messages/e2ee/t/7668496936527651</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>https://www.facebook.com/messages/e2ee/t/24963289869986450</td>
+            <td>ზაალი გიორგაძე</td>
+            <td>✅</td>
+            <td>დაჩი გიორგაძე</td>
+            <td>https://www.facebook.com/messages/t/100009562337724</td>
+            <td>13</td>
+        </tr>
+    </table>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

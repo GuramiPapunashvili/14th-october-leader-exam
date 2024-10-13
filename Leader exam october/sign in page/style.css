@@ -1,0 +1,45 @@
+tr, td{
+    border: 2px solid black;
+    height: 30px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+#TableForModerators, #TableForViewers{
+    display: none;
+}
+
+#addStudent{
+    display: none;
+}
+
+#SignUp{
+    display: flex;
+    background-color: gray;
+    height: 400px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    height: 20px;
+    width: 200px;
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+
+#submit{
+    height: 30px;
+}
+
+#addStudent{
+    height: 30px;
+    width: 120px;
+    background-color: blue;
+    color: white;
+    font: 200;
+}
+
